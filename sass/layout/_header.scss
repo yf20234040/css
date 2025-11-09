@@ -1,0 +1,33 @@
+// 布局
+.header {
+    position:relative;
+    height: 95vh;
+    background-image:linear-gradient(
+        to right, 
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)) ,
+        url(../img/hotel-2.jpg);
+    background-size:cover;
+    background-position: top;
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+
+    &__logo-box{
+    position:absolute;
+    top: 2rem;
+    left: 2rem;
+    }
+
+    &__logo{
+    height: 4rem;
+    }
+
+
+    &__text-box{
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    }
+
+}
