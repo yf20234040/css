@@ -37,6 +37,15 @@
         }
     }
 
+    &--green{
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after{
+        background-color: $color-primary-dark;
+        }
+    }
+
     /* 伪元素??? */
     &::after
     {

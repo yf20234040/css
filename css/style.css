@@ -132,6 +132,14 @@ body {
   margin-bottom: 8rem;
 }
 
+.u-margin-top-big {
+  margin-bottom: 8rem;
+}
+
+.u-margin-top-huge {
+  margin-bottom: 10rem;
+}
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -162,6 +170,13 @@ body {
 }
 .btn--white::after {
   background-color: #fff;
+}
+.btn--green {
+  background-color: #50be7e;
+  color: #fff;
+}
+.btn--green::after {
+  background-color: #09c580;
 }
 .btn {
   /* 伪元素??? */
@@ -303,6 +318,8 @@ body {
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .card__picture-1 {
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../../img/hotel-3.jpg);
@@ -374,6 +391,14 @@ body {
 .card__price-value {
   font-size: 6rem;
   font-weight: 100;
+}
+
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 3px;
 }
 
 .header {
@@ -456,8 +481,13 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -10vh;
+}
+
+.section-stories {
+  padding: 15rem 0;
+  background-color: #f7f7f7;
 }
 
 /*# sourceMappingURL=style.css.map */
